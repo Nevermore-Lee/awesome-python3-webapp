@@ -53,7 +53,7 @@ async def execute(sql,args):
             raise
         return affected
 
-from orm import Model,StringField,IntegerField
+# from orm import Model,StringField,IntegerField
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(init(loop))
